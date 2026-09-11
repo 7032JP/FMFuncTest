@@ -1,0 +1,12 @@
+# ビルド中間物 (make で再生成される)
+*.bin
+# ただし D77 → T77 変換ツールが使うトランポリン (テンプレート) は同梱する
+!scripts/trampoline_*.bin
+# 生成物の出力先
+out/
+# Python キャッシュ
+__pycache__/
+# OS のゴミファイル
+.DS_Store
+Thumbs.db
+._*

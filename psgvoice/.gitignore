@@ -3,5 +3,5 @@ psgdata.bin
 psgvoice_main.bin
 psgvoice_sub.bin
 
-# ヘッドレス検証の出力 (スクリーンショット / 音声)
+# 生成物の出力先
 out/

@@ -42,7 +42,7 @@ psgvoice.d77: psgvoice_main.bin psgvoice_sub.bin psgdata.bin scripts/mkd77.mjs
 # そのまま食わせられる。--addr はテープ用エントリ TAPENT (= $0200)。
 # 生成物: psgvoice.t77 (テープイメージ) / psgvoice.wav (FSK 音声) /
 #         psgvoice.cmt.txt (F-BASIC でのロード手順)
-T77TOOL = ../../scripts/d77_to_t77_chunks.py
+T77TOOL = ../scripts/d77_to_t77_chunks.py
 TAPE_ENTRY = 0x0200
 
 t77: psgvoice.t77
